@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: header;
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+@font-face {
+  font-family: h1;
+  src: url(../fonts/Mulish-Regular.ttf);
+}
+
+@font-face {
+  font-family: p;
+  src: url(../fonts/Aileron-Regular.otf);
+}
+/* Table Styles */
+table.programs {
+  border-collapse: collapse;
+  font-family:p;
+  margin-top: 100px;
+  margin-bottom: 50px;
+   margin-left: 100px;
+}
+
+table.programs tr {
+  height: 25px;
+}
+
+table.programs th,
+table.programs td {
+  border: 2px solid #2d6260;
+  vertical-align: top;
+  padding: 5px;
+}
+
+caption {
+  caption-side: bottom;
+  text-align: center;
+}
+
+
+col.timeColumn {
+  width: 30%;
+ 
+}
+
+col.wDayColumns {
+  width: 30%;
+}
+
+col.wEndColumns {
+  width: 30%;
+}
+
+/* Table Header Styles */
+
+thead {
+  color: #2d6260;
+  font-family: header;
+  font-size: 25px;
+  
+}
+tbody {
+  color: #0a3200;
+  font-family: p;
+  font-size: 18px;
+ 
+}
+
+/* Table Footer Styles */
+
+tfoot {
+  color: #0a3200;
+  font-family: p;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+ 
+}
+
+@media(max-width:480px) {
+   table.programs {
+         margin-top: 10px;
+         margin-bottom: 50px;
+         margin: 30px;
+         
+      }
+}

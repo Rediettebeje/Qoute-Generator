@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quote Generator</title>
+    <!-- Link to FontAwesome stylesheet for social media icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-...."
+      crossorigin="anonymous"
+    />
+    <!-- Link to Material Icons stylesheet from Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link href="../css/tables.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+        <label class="logo">
+          <img src="../images/Picture3.png" />
+        </label>
+
+      <nav>
+        <a id="menu" href="#"><img src="../images/lht_navicon.png" alt="" /></a>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./addQuote.html">AddQuote</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./linkreference.html">References</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="quote_wrapper">
+      <div class="title">
+        <h1>Qoute Generator</h1>
+      </div>
+      <div class="second-part">
+        <p id="qoute" class="expression">
+          If you can't do the little things right, you'll never be able to do
+          the big things right
+        </p>
+        <p id="person" class="name">William H. McRaven</p>
+        <button id="button" class="btn">New Qoute</button>
+      </div>
+    </section>
+    <section id="wrapper" class="wrapper">
+      <section class="image_wrapper">
+        <figure id="images" class="image">
+          <img src="../images/book.jpg" />
+        </figure>
+        <section class="second">
+          <p>
+            You can Share it on your Social Media<br />
+            make sure to follow us
+          </p>
+          <ul class="icons">
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fab fa-facebook icon"></i>
+            </a>
+
+            <a href="https://www.twitter.com" target="_blank">
+              <i class="fab fa-twitter icon"></i>
+            </a>
+
+            <a href="https://www.instagram.com" target="_blank">
+              <i class="fab fa-instagram icon"></i>
+            </a>
+          </ul>
+        </section>
+      </section>
+      <section class="image_wrapper">
+        <figure class="image">
+          <img src="../images/write.jpg" />
+        </figure>
+        <section class="second">
+          <p>
+            You can either add your favorite quote<br />
+            or your own personal
+          </p>
+          <a href="addquote.html">
+            <button id="button2" class="btn">Add Quote</button>
+          </a>
+        </section>
+      </section>
+    </section>
+    <!-- <div class="poster">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wj7Q4_Oabuc?si=TRSg9Teqkzt1A20_"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+        
+    </div> -->
+    <video id="myVideo" class="poster" autoplay loop muted>
+      <!-- MP4 file -->
+      <source src="../video/lifevideo.mp4" type="video/mp4" />
+    </video>
+
+    <table id="mytable" class="programs">
+      <colgroup>
+        <col class="timeColumn" />
+        <col class="wDayColumns" span="5" />
+        <col class="wEndColumns" span="2" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Read</th>
+          <th>write</th>
+          <th>Motivate</th>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr>
+          <td colspan="3">Stay Postive</td>
+        </tr>
+      </tfoot>
+      <tbody>
+        <tr>
+          <td rowspan="3">
+            The more that you read, the more things you will know. The more that
+            you learn, the more places you'll go.
+          </td>
+          <td rowspan="3">
+            Writing is an exploration. You start from nothing and learn as you
+            go.
+          </td>
+          <td rowspan="3">
+            The future belongs to those who believe in the beauty of their
+            dreams.
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <footer class="footer">
+      <p>Copy write © 2023 Quote Generator</p>
+    </footer>
+    <script src="../js/script.js"></script>
+  </body>
+</html>

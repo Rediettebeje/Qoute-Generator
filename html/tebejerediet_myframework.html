@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Framework</title>
+    <link rel="stylesheet" href="../css/tables.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <style>
+      .table-wrapper {
+        display: flex;
+        justify-content: center;
+      }
+      .title {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="header">
+      <label class="logon">
+        <img src="../images/Picture3.png" alt="Logo" />
+      </label>
+      <nav>
+        <a id="menu" href="#"><img src="../images/lht_navicon.png" alt="Menu" /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">AddQuote</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">References</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main-content">
+      <div class="title">
+        <h1>Insert main Heading Here</h1>
+      </div>
+      <div class="second-part">
+        <p id="quote" class="expression">
+       
+          Quote
+        </p>
+        <p id="person" class="name">
+          author or source of the quote.
+        </p>
+        <button id="button" class="btn">New Quote</button>
+      </div>
+    </section>
+    <section class="wrapper">
+      <section class="image_wrapper">
+        <figure class="image">
+          <img src="../images/book.jpg" alt="Image 1" />
+        </figure>
+        <section class="second">
+          <p>Insert subheading here.</p>
+          <ul class="icons">
+            <li><i class="fab fa-facebook icon"></i></li>
+            <li><i class="fab fa-twitter icon"></i></li>
+            <li><i class="fab fa-instagram icon"></i></li>
+          </ul>
+        </section>
+      </section>
+      <section class="image_wrapper">
+        <figure class="image">
+          <img src="../images/write.jpg" alt="Image 2" />
+        </figure>
+        <section class="second">
+          <p>Insert subheading here.</p>
+          <button id="button" class="btn">Add Quote</button>
+        </section>
+      </section>
+    </section>
+    <video id="myVideo" class="poster" autoplay loop muted>
+      <!-- MP4 file -->
+      <source src="../video/lifevideo.mp4" type="video/mp4" />
+    </video>
+    <div class="table-wrapper">
+      <table class="programs">
+        <colgroup>
+          <col class="timeColumn" />
+          <col class="wDayColumns" span="5" />
+          <col class="wEndColumns" span="2" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>thead</th>
+            <th>thead</th>
+            <th>thead</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td colspan="3">tfoot</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td rowspan="3">
+              tdata.
+            </td>
+            <td rowspan="3">
+              tdate.
+            </td>
+            <td rowspan="3">
+              tdata.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="footer">
+      <p>&copy; Copy write © 2023 Quote Generator</p>
+    </footer>
+  </body>
+</html>
